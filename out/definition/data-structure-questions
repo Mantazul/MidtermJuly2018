@@ -1,0 +1,110 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+A. For software programming, efficient algorithm, management of huge databases.
+
+What are the various operations that can be performed on different Data Structures?
+A. Traversing, searching, inserting, deleting, sorting and merging.
+
+List out the areas in which data structures are applied extensively?
+A. Database mangement system, operating system, compiler design, numerical analysis, statistical analysis package, graphics,
+    artificial intelligence, and simulation.
+
+what is an Array?
+A. An array is dynamically created objects that serves as a container to hold constant numbers of values of the same type.
+    Memory space is allocated by declaring an array.
+
+what is the difference between the Array and ArrayList?
+A. Array has fixed length data structure, that is ststic in size. ArrayList has instance variables capacity which indicates
+the size of the arralist, that is dynamic in size. ArraList cannot contain primitive datatype, it can only contain object.
+ Array can contain both primitive datatypes as well as objects.
+
+what is LinkedList?
+A. LinkedList class uses doubly linked list to store the elements which provides linked list data structure. Java LinkedList class
+    can contain duplicate elements, maintains insertion order, can be used as list, stack or queue.
+
+How is an Array different from Linked List?
+A. Array is a collection of elements having same data type with common name, Linked list is an ordered collection of
+    elements which are connected by links. array provides fast and random access, in linked list elements can not be accessed randomly.
+    Elements are stored in consecutive manner in memory in array, elements can be stored at any available place in Linked List.
+
+what is queue?
+A. Queue is a data structure that holds elements prior to processing, the processing is called First In First Out (FIFO).
+
+what is stack?
+A. Stack is data structure based upon the principle of last-in-first-out.
+
+what is FIFO and LIFO?
+A. FIFO- First In First Out, LIFO- Last-In-First-Out.
+
+what is the order of complexity?
+A.
+what is the best case to search an element from an array?
+A. Best case for a simple linear search on a list occurs when the desired element is the first element of the list.
+
+what is the worst case to search an element from an array?
+A. The worst case scenario for a algorithm is not finding a matching record. In this case it is necessary to step through the entire array and match against every single item.
+    If we have 1024 items in the array, then we have to test all 1024 items to confirm that a match cannot be found.
+
+what is tree in data structure?
+A. A tree is a collection of nodes connected by directed (or undirected) edges, tree is a nonlinear data structure, compared to arrays,
+    linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a
+    structure consisting of one node called the root and zero or one or more subtrees.
+
+what is graph in data structure?
+A.A Graph is a non-linear data structure consisting of nodes and edges.
+    The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.
+
+what is the difference between the HashTable and HashMap?
+A. HashTable and HashMap are data structures for web-based and other applications. HasMap allows null values, HashTable do not allow null values
+    in data structuring. HashMap contains iterator, HashTable contains enumerator. Access to HasTable is synchronized on the table, access to
+    HashMap is not synchronized.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. RDBMS Array, Network data model graph and Hierarchical data model Trees.
+
+How HashMap works in java?
+A. HashMap works based on hashing principles and internally uses hashcode as a base.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. The program is trying to access an element at an index that is outside the out of array bounds.
+
+What are the different ways of copying an array into another array?
+A. Manually, Arrays.CopyOf(), System.arraycopy() and Object.clone(0).
+
+What is difference between an array and a linked list?
+A. Arrays are data structure to store collection of elements. Linked list is also data structure that can be used to store collection of elements.
+   Array is allocated as a single block of memory and each element gets its own space in the array, its size is fixed.
+   A linked list allocates memory to its elements separately in its own block of memory and the overall structure is obtained by linking these elements as links in a chain.
+
+What is DFS and BFS?
+A. DFS is Depth First Search, BFS is Breadth First Search.
+
+What is Recursion?
+A. Recursion is a basic programming technique, a method calls itself to solve problem.
+
+What are linear and non linear data Structures?
+A. Linear data structure is a structure that organizes its data elements one after the other.  Construction of Nonlinear data structures occurs by attaching a data element to
+    several other data elements in such a way that it reflects a specific relationship among them.
+    In linear data structures, the organization of data elements are sequential while in nonlinear data structures, the organization of data elements is not sequential.
+
+What is Big-(O)-notation?
+A. Big-(O)-notation is used to describe the asymptotic upper bound of performance or complexity for a given function.
+
+Outlined different kind of sorting algorithm with time complexity?
+A. Selection sort
+Bubble sort
+Insertion sort
+Heap sort
+Quick sort
+Merge sort
+Bucket sort
+Redix sort
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+
